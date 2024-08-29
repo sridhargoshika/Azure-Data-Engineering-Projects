@@ -59,7 +59,3 @@ To work with the projects in this repository, you will need:
 ## Contributing
 
 Contributions are welcome! If you have improvements or new projects to add, please fork the repository, create a new branch, and submit a pull request.
-
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
