@@ -43,12 +43,6 @@ The repository includes the following notebooks and images:
 2. **On-Premise Data on SQL Server**: ![On-Premise Data on SQL Server](1.On-premise-data-on-sql-server.png)
 3. **Moving Data from On-Prem to Cloud - Azure Data Factory**: ![Moving Data from On-Prem to Cloud - Azure Data Factory](2.Moving-data-from-on-prem-to-cloud-azure-data-factory.png)
 4. **Creating Views Using Stored Procedure in Synapse**: ![Creating Views Using Stored Procedure in Synapse](3.Creating-views-using-stored-procedure-in-synapse.png)
-5. **Creating an Interactive Dashboard in Power BI**: ![Creating an Interactive Dashboard in Power BI](4.Creating an interactive dashboard in power BI.png)
-
-## Dashboard Example
-
-Here is an example of the interactive dashboard created in Power BI:
-
-![Power BI Dashboard](image.jpg)
+5. **Creating an Interactive Dashboard in Power BI**: ![Creating an Interactive Dashboard in Power BI](4.Creating-an-interactive-dashboard-in-power-BI.png)
 
 This project showcases the integration of various Azure services to create a robust data platform, ensuring efficient data management and insightful reporting.
