@@ -39,10 +39,19 @@ The repository includes the following notebooks and images:
 
 ### Images
 
-1. **Project Architecture**: ![Project Architecture](Project-Architecture.jpg)
-2. **On-Premise Data on SQL Server**: ![On-Premise Data on SQL Server](1.On-premise-data-on-sql-server.png)
-3. **Moving Data from On-Prem to Cloud - Azure Data Factory**: ![Moving Data from On-Prem to Cloud - Azure Data Factory](2.Moving-data-from-on-prem-to-cloud-azure-data-factory.png)
-4. **Creating Views Using Stored Procedure in Synapse**: ![Creating Views Using Stored Procedure in Synapse](3.Creating-views-using-stored-procedure-in-synapse.png)
-5. **Creating an Interactive Dashboard in Power BI**: ![Creating an Interactive Dashboard in Power BI](4.Creating-an-interactive-dashboard-in-power-BI.png)
+1. **Project Architecture**: <br>
+   <img src="Project-Architecture.jpg" alt="Project Architecture" width="600">
+
+2. **On-Premise Data on SQL Server**: <br>
+   <img src="1.On-premise-data-on-sql-server.png" alt="On-Premise Data on SQL Server" width="600">
+
+3. **Moving Data from On-Prem to Cloud - Azure Data Factory**: <br>
+   <img src="2.Moving-data-from-on-prem-to-cloud-azure-data-factory.png" alt="Moving Data from On-Prem to Cloud - Azure Data Factory" width="600">
+
+4. **Creating Views Using Stored Procedure in Synapse**: <br>
+   <img src="3.Creating-views-using-stored-procedure-in-synapse.png" alt="Creating Views Using Stored Procedure in Synapse" width="600">
+
+5. **Creating an Interactive Dashboard in Power BI**: <br>
+   <img src="4.Creating-an-interactive-dashboard-in-power-BI.png" alt="Creating an Interactive Dashboard in Power BI" width="600">
 
 This project showcases the integration of various Azure services to create a robust data platform, ensuring efficient data management and insightful reporting.
