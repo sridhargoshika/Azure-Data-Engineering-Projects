@@ -45,4 +45,10 @@ The repository includes the following notebooks and images:
 4. **Creating Views Using Stored Procedure in Synapse**: ![Creating Views Using Stored Procedure in Synapse](3.Creating-views-using-stored-procedure-in-synapse.png)
 5. **Creating an Interactive Dashboard in Power BI**: ![Creating an Interactive Dashboard in Power BI](4.Creating-an-interactive-dashboard-in-power-BI.png)
 
+## Dashboard Example
+
+Here is an example of the interactive dashboard created in Power BI:
+
+![Power BI Dashboard](image.jpg)
+
 This project showcases the integration of various Azure services to create a robust data platform, ensuring efficient data management and insightful reporting.
