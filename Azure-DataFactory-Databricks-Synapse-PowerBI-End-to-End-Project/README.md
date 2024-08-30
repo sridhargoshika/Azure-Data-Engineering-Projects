@@ -40,7 +40,7 @@ The repository includes the following notebooks and images:
 ### Images
 
 1. **Project Architecture**: <br>
-   <img src="Project-Architecture.jpg" alt="Project Architecture" width="600">
+   <img src="Project-Architecture.png" alt="Project Architecture" width="600">
 
 2. **On-Premise Data on SQL Server**: <br>
    <img src="1.On-premise-data-on-sql-server.png" alt="On-Premise Data on SQL Server" width="600">
