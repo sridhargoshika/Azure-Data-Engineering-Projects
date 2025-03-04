@@ -1,0 +1,12 @@
+{
+	"name": "Http_Netha_LinkedServices",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/YourGitHubUsername/YourRepoName/main/",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
