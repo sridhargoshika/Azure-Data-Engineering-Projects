@@ -1,0 +1,9 @@
+{
+	"name": "Netha-Data-Factory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "751b0a85-c000-4c6c-b7ed-e26bcd5ae8b7",
+		"tenantId": "73250f2b-2de0-45fc-8887-38d436dff114"
+	}
+}
