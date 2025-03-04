@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://raw.githubusercontent.com/YourGitHubUsername/YourRepoName/main/",
+			"url": "https://github.com/anshlambagit/PySpark-RealTime-Scenarios-with-Python/tree/main/",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
