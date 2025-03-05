@@ -1,0 +1,12 @@
+{
+	"name": "LS_HTTP_GitHub",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://api.github.com/repos/anshlambagit/PySpark-RealTime-Scenarios-with-Python/contents/Raw%20Data/",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
