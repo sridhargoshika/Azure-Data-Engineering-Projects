@@ -1,0 +1,44 @@
+{
+	"name": "http_ds_csv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Http_ls_csv",
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"download_url": {
+					"value": "@dataset().relative_url",
+					"type": "Expression"
+				},
+				"relative_url": {
+					"value": "@dataset().relative_url",
+					"type": "Expression"
+				}
+			}
+		},
+		"parameters": {
+			"Basic_url": {
+				"type": "string",
+				"defaultValue": "https://raw.githubusercontent.com/"
+			},
+			"f_name": {
+				"type": "string"
+			},
+			"relative_url": {
+				"type": "string",
+				"defaultValue": "anshlambagit/PySpark-RealTime-Scenarios-with-Python/main/Raw%20Data/"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

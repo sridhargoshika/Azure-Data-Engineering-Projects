@@ -1,0 +1,23 @@
+{
+	"name": "DS_SALES_Bronze",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLS_Netha_LinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "sales.csv",
+				"folderPath": "bronze"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"name": "http_Json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Http_json",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "anshlambagit/PySpark-RealTime-Scenarios-with-Python/contents/Raw%20Data"
+			}
+		},
+		"schema": {}
+	}
+}

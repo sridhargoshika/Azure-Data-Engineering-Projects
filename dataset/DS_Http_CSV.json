@@ -1,0 +1,22 @@
+{
+	"name": "DS_Http_CSV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Http_Netha_LinkedServices",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "anshlambagit/PySpark-RealTime-Scenarios-with-Python/main/Raw%20Data/sales_data_first.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

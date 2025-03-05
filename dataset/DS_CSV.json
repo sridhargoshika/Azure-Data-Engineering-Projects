@@ -1,0 +1,27 @@
+{
+	"name": "DS_CSV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLS_Netha_LinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"f_name": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "bronze"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

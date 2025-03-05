@@ -1,0 +1,19 @@
+{
+	"name": "ds_adls_json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLS_Netha_LinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "adls_json",
+				"folderPath": "raw"
+			}
+		},
+		"schema": {}
+	}
+}
