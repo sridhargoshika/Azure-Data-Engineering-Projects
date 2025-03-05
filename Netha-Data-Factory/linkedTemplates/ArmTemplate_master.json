@@ -1,0 +1,91 @@
+{
+	"$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"type": "string",
+			"metadata": "Data Factory name",
+			"defaultValue": "Netha-Data-Factory"
+		},
+		"ADLS_Netha_LinkedService_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'ADLS_Netha_LinkedService'"
+		},
+		"ADLS_csv_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'ADLS_csv'"
+		},
+		"ADLS_Netha_LinkedService_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://nethastorageaccount.dfs.core.windows.net/"
+		},
+		"ADLS_csv_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://nethastorageaccount.dfs.core.windows.net/"
+		},
+		"Http_Netha_LinkedServices_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://raw.githubusercontent.com"
+		},
+		"Http_json_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://api.github.com/repos/"
+		},
+		"Http_ls_csv_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "@{linkedService().basic_url}"
+		},
+		"containerUri": {
+			"type": "string",
+			"metadata": "URI to storage account containing linked ARM templates"
+		},
+		"containerSasToken": {
+			"type": "string",
+			"metadata": "Sas token to storage account containing linked ARM templates"
+		}
+	},
+	"variables": {
+		"factoryId": "[concat('Microsoft.DataFactory/factories/', parameters('factoryName'))]"
+	},
+	"resources": [
+		{
+			"name": "Netha-Data-Factory_ArmTemplate_0",
+			"type": "Microsoft.Resources/deployments",
+			"apiVersion": "2024-03-01",
+			"properties": {
+				"mode": "incremental",
+				"templateLink": {
+					"uri": "[concat(parameters('containerUri'), '/ArmTemplate_0.json', parameters('containerSasToken'))]",
+					"contentVersion": "1.0.0.0"
+				},
+				"parameters": {
+					"factoryName": {
+						"value": "[parameters('factoryName')]"
+					},
+					"ADLS_Netha_LinkedService_accountKey": {
+						"value": "[parameters('ADLS_Netha_LinkedService_accountKey')]"
+					},
+					"ADLS_csv_accountKey": {
+						"value": "[parameters('ADLS_csv_accountKey')]"
+					},
+					"ADLS_Netha_LinkedService_properties_typeProperties_url": {
+						"value": "[parameters('ADLS_Netha_LinkedService_properties_typeProperties_url')]"
+					},
+					"ADLS_csv_properties_typeProperties_url": {
+						"value": "[parameters('ADLS_csv_properties_typeProperties_url')]"
+					},
+					"Http_Netha_LinkedServices_properties_typeProperties_url": {
+						"value": "[parameters('Http_Netha_LinkedServices_properties_typeProperties_url')]"
+					},
+					"Http_json_properties_typeProperties_url": {
+						"value": "[parameters('Http_json_properties_typeProperties_url')]"
+					},
+					"Http_ls_csv_properties_typeProperties_url": {
+						"value": "[parameters('Http_ls_csv_properties_typeProperties_url')]"
+					}
+				}
+			},
+			"dependsOn": []
+		}
+	]
+}

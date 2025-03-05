@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Netha-Data-Factory"
+		},
+		"ADLS_Netha_LinkedService_accountKey": {
+			"value": ""
+		},
+		"ADLS_csv_accountKey": {
+			"value": ""
+		},
+		"ADLS_Netha_LinkedService_properties_typeProperties_url": {
+			"value": "https://nethastorageaccount.dfs.core.windows.net/"
+		},
+		"ADLS_csv_properties_typeProperties_url": {
+			"value": "https://nethastorageaccount.dfs.core.windows.net/"
+		},
+		"Http_Netha_LinkedServices_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"Http_json_properties_typeProperties_url": {
+			"value": "https://api.github.com/repos/"
+		},
+		"Http_ls_csv_properties_typeProperties_url": {
+			"value": "@{linkedService().basic_url}"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
